@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=style.css.map */
-=======
+
 @font-face {
   font-family: "Galano";
   src: url("../fonts/first_font/GalanoGrotesque-Bold.ttf");
@@ -185,5 +183,4 @@ header .container img {
   color: black;
   display: block;
   font-family: "Varela";
-}/*# sourceMappingURL=style.css.map */
->>>>>>> 9934db2 (added I)
+}

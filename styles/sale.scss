@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Glano';
+    src: url("../fonts/first_font/")
+}
+
+.body {
+    background-color: #f6f6f6;
+}
+
+.intro {
+    .container {
+        h1 {
+            text-align: center;
+            font-weight: 800;
+            color: #5B8E7D;
+            margin-bottom: 20px;
+            font-size: 28px
+        }
+
+        .intro-text {
+            width: 50%;
+            text-align: left;
+            margin: 0 auto;
+            font-size: 23px;
+            font-weight: 500;
+
+            .sale {
+                text-align: center;
+
+                span {
+                    display: block;
+                }
+
+                .no-sale {
+                    color: red;
+                    font-weight: 700;
+                    font-size: 25px;
+                    text-decoration: line-through;
+                }
+
+                .special-price {
+                    font-size: 26px;
+                    color: green;
+                    font-weight: 800;
+                }
+
+
+            }
+        }
+
+        .intro-form {
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+
+            h3 {
+                width: 100%;
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                font-family: "Glano";
+                font-weight: 600;
+                text-align: center;
+                font-size: 35px;
+                transform: translate(-50%, -50%);
+                overflow: hidden;
+                z-index: 3;
+               
+            }
+            
+        h3 span:nth-child(1) {
+            position: absolute;
+            top: 0;
+            height: 2px;
+            width: 100%;
+            left: 0px;
+            background-image: linear-gradient(to right, #5B8E7D, #8ac2af);
+            animation: animate1 linear 2s infinite;
+            animation-delay: 0.1s;
+        }
+
+        @keyframes animate1 {
+            0% {
+                transform: translateX(-100%)
+            }
+
+            100% {
+                transform: translateX(100%)
+            }
+        }
+
+
+        h3 span:nth-child(2) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background-image: linear-gradient(to top, #5B8E7D, #8ac2af);
+            animation: animate2 linear 2s infinite;
+            animation-delay: 0.1s;
+        }
+
+        @keyframes animate2 {
+            0% {
+                transform: translateY(-100%)
+            }
+
+            100% {
+                transform: translateY(100%)
+            }
+        }
+
+        h3 span:nth-child(3) {
+            position: absolute;
+            bottom: 0;
+            height: 2px;
+            width: 100%;
+            left: 0px;
+            background-image: linear-gradient(to left,  #5B8E7D, #8ac2af);
+            animation: animate3 linear 2s infinite;
+            animation-delay: 0.1s;
+        }
+        @keyframes animate3 {
+            0% {
+                transform: translateX(100%)
+            }
+
+            100% {
+                transform: translateX(-100%)
+            }
+        }
+
+        h3 span:nth-child(4) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background-image: linear-gradient(to bottom, #5B8E7D, #8ac2af);
+            animation: animate4 linear 2s infinite;
+            animation-delay: 0.1s;
+        }
+        @keyframes animate4 {
+            0% {
+                transform: translateY(100%)
+            }
+
+            100% {
+                transform: translateY(-100%)
+            }
+        }
+
+        span.notice:target{font-size: 2em; font-style: bold;}
+        .form{
+            padding-top: 80px;
+            .form-wrap {
+                margin: 0 auto;
+                width: 60%;
+
+                div {
+                    display: flex;
+                    flex-direction: column-reverse;
+
+                    input {
+                        display: block;
+                        padding: 10px;
+                    }
+                    label{
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+                button{
+                    width: 100%;
+                    margin-top: 15px;
+                    text-align: center;
+                    border: none;
+                    outline: none;
+                    border: 4px solid #5B8E7D;
+                    border-radius: 15px;
+                    background-color: #5B8E7D;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+            
+        }
+
+    }
+}
+
+@media(max-width:991.98px){
+    .intro{
+        .container{
+            h1{
+                font-size: 38px;
+            }
+            .intro-text{
+                width: 100%;
+            }
+            .intro-form{
+                .form{
+                    padding-top: 100px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:767.98px){
+    .intro{
+        .container{
+            .intro-form{
+                h3{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:575.98px){
+    .intro{
+        .container{
+            h1{
+                font-size: 31px;
+            }
+            .intro-text{
+                font-size: 22px;
+            }
+            .intro-form{
+                h3{
+                    font-size: 24px;
+                }
+                .form{
+                    .form-wrap{
+                        width: 90%;
+                    }
+                }
+            }
+        }
+
+    }
+}

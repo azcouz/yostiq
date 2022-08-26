@@ -51,7 +51,7 @@
 }
 
 .intro .container .intro-form h3 {
-  width: 100%;
+  width: 50%;
   position: absolute;
   top: 10%;
   left: 50%;
@@ -220,7 +220,7 @@
 
 .intro .container .intro-form .form .form-wrap {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
 }
 
 .intro .container .intro-form .form .form-wrap div {

@@ -1,11 +1,13 @@
 @font-face {
-  font-family: "Galano";
+  font-family: 'Galano';
   src: url("../fonts/first_font/GalanoGrotesque-Bold.ttf");
 }
+
 @font-face {
-  font-family: "Varela";
+  font-family: 'Varela';
   src: url("../fonts/second_fond/VarelaRound-Regular.ttf");
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -17,37 +19,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 header .container h1 {
-  font-family: "Galano";
+  font-family: 'Galano';
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: 400;
   color: red;
 }
+
 header .container img {
   width: 40%;
   margin: 0 auto;
   display: block;
-  box-shadow: 2px 2px 8px 6px rgb(175, 175, 175);
+  -webkit-box-shadow: 2px 2px 8px 6px #afafaf;
+          box-shadow: 2px 2px 8px 6px #afafaf;
   margin-bottom: 50px;
 }
 
 .main {
   background-color: #eee;
 }
+
 .main .container {
-  background-color: rgb(218, 218, 218);
+  background-color: #dadada;
 }
+
 .main .container .text {
   width: 70%;
   margin: 0 auto;
   padding: 30px 0;
 }
+
 .main .container .text p {
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 38px;
   margin-bottom: 45px;
 }
+
 .main .container .video iframe {
   width: 100%;
   height: 550px;
@@ -56,24 +64,28 @@ header .container img {
 .wrapper {
   background-color: #eee;
 }
+
 .wrapper .container {
   width: 60%;
   margin: 0 auto;
 }
+
 .wrapper .container h2 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 38px;
   padding-top: 30px;
   margin-bottom: 40px;
 }
+
 .wrapper .container span {
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 28px;
   margin-bottom: 35px;
   display: block;
 }
+
 .wrapper .container p {
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 28px;
   padding-bottom: 30px;
 }
@@ -81,31 +93,37 @@ header .container img {
 .features {
   background-color: #eee;
 }
+
 .features .container {
   width: 60%;
   margin: 0 auto;
 }
+
 .features .container h3 {
-  font-family: "Galano";
+  font-family: 'Galano';
   color: #5B8E7D;
   font-size: 33px;
   margin-bottom: 30px;
 }
+
 .features .container ol {
   margin-bottom: 0;
 }
+
 .features .container ol li {
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 26px;
 }
 
 .guarantee {
   background-color: #eee;
 }
+
 .guarantee .container {
   width: 60%;
   margin: 0 auto;
 }
+
 .guarantee .container svg {
   width: 80px;
   display: block;
@@ -114,13 +132,15 @@ header .container img {
   margin-bottom: 40px;
   fill: #5B8E7D;
 }
+
 .guarantee .container h3 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 34px;
   padding-bottom: 40px;
 }
+
 .guarantee .container p {
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 28px;
   margin-bottom: 40px;
 }
@@ -128,10 +148,12 @@ header .container img {
 .form {
   background-color: #eee;
 }
+
 .form .container {
   width: 60%;
   margin: 0 auto;
 }
+
 .form .container svg {
   width: 100px;
   margin: 0 auto;
@@ -139,29 +161,34 @@ header .container img {
   fill: #5B8E7D;
   margin-bottom: 30px;
 }
+
 .form .container h3 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 34px;
   padding-bottom: 40px;
 }
+
 .form .container form {
   width: 100%;
 }
+
 .form .container form label {
   display: block;
   margin-bottom: 6px;
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 18px;
 }
+
 .form .container form input {
   display: block;
   width: 100%;
   margin-bottom: 20px;
   outline: none;
-  font-family: "Varela";
+  font-family: 'Varela';
   font-size: 20px;
   padding: 10px 12px;
 }
+
 .form .container form button {
   width: 100%;
   outline: none;
@@ -170,18 +197,19 @@ header .container img {
   border-radius: 30px;
   padding: 10px;
   margin-bottom: 40px;
-  font-family: "Galano";
+  font-family: 'Galano';
   font-weight: 400;
   color: white;
   font-size: 20px;
 }
+
 .form .container a {
   text-align: center;
   padding-bottom: 30px;
   text-decoration: none;
   color: black;
   display: block;
-  font-family: "Varela";
+  font-family: 'Varela';
 }
 
 @media (max-width: 991.98px) {
@@ -236,6 +264,7 @@ header .container img {
     text-align: center;
   }
 }
+
 @media (max-width: 767.98px) {
   header .container h1 {
     font-size: 30px;
@@ -277,6 +306,7 @@ header .container img {
     padding-bottom: 25px;
   }
 }
+
 @media (max-width: 414.98px) {
   header .container h1 {
     font-size: 24px;
@@ -330,4 +360,5 @@ header .container img {
     font-size: 24px;
     padding-bottom: 16px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

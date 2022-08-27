@@ -1,0 +1,30 @@
+.body{
+    background-color:aliceblue;
+}
+
+.success {
+   padding: 100px;
+}
+
+.success-info {
+    margin: 0 auto;
+    text-align: center;
+}
+.success-text{
+margin-top: 20px;
+}
+
+.success-text__title{
+    color: forestgreen;
+}
+// test 
+
+@media (max-width: 414.98px) {
+    .success {
+        padding: 70px 40px;
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
